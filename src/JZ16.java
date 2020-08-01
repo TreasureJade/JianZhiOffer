@@ -4,6 +4,7 @@
 public class JZ16 {
     public ListNode Merge(ListNode list1, ListNode list2) {
         ListNode head = new ListNode(-1);
+        // 创建新链表
         ListNode pre = head;
 
         while (list1 != null && list2 != null) {
@@ -18,7 +19,10 @@ public class JZ16 {
             pre = pre.next;
 
         }
-        pre.next = list1 == null ? list2 : list1;
+        if (list1 == null) {
+            list1 = list2;
+        }
+        pre.next = list1;
         return head.next;
     }
 
