@@ -17,6 +17,7 @@ public class JZ21 {
             stack.push(pushA[i]);
             while (!stack.empty() && stack.peek() == popA[j]) {
                 stack.pop();
+                // 校验出栈序列
                 j++;
             }
         }
