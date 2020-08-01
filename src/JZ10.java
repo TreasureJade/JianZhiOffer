@@ -1,5 +1,5 @@
 /**
- * 矩形覆盖
+ * 矩形覆盖 简单的动态规划
  */
 public class JZ10 {
     public static int RectCover(int target) {
