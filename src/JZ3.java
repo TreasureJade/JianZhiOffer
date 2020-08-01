@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
+ * 从头到尾打印链表
  * 翻转链表
  */
 public class JZ3 {
