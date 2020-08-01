@@ -1,3 +1,6 @@
+/**
+ * 二维数组中的查找
+ */
 public class JZ1 {
 
     public boolean Find(int target, int[][] array) {
